@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  :root {
+    --background: 240 20% 97%; /* #F5F5F7 approx */
+    --foreground: 216 28% 10%; /* #131921 approx */
+    --border: 240 10% 90%;
+  }
+  body {
+    @apply bg-[#F5F5F7] text-amazon-navy;
+    background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23e0e0e0' fill-opacity='0.4' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='1'/%3E%3C/g%3E%3C/svg%3E");
+  }
+}
+@layer components {
+  .skeuo-card {
+    @apply bg-[#F5F5F7] rounded-2xl shadow-skeuo-outset border border-white/50;
+  }
+  .skeuo-btn {
+    @apply bg-[#F5F5F7] rounded-xl shadow-skeuo-sm text-amazon-navy font-semibold transition-all duration-200 
+           hover:shadow-skeuo-outset active:shadow-skeuo-pressed active:scale-[0.98] flex items-center justify-center;
+  }
+  .skeuo-btn-primary {
+    @apply bg-amazon-orange text-white rounded-xl shadow-[4px_4px_8px_#d1d1d4,-4px_-4px_8px_#ffffff,inset_2px_2px_4px_rgba(255,255,255,0.4)] 
+           transition-all duration-200 active:shadow-[inset_4px_4px_8px_rgba(0,0,0,0.2)] active:scale-[0.98] flex items-center justify-center font-bold;
+  }
+  .skeuo-input {
+    @apply bg-[#F5F5F7] rounded-xl shadow-skeuo-inset px-4 py-3 outline-none focus:ring-2 focus:ring-amazon-orange/50 transition-all border-none placeholder:text-gray-400;
+  }
+}

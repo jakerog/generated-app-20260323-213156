@@ -1,0 +1,11 @@
+@layer components {
+  /* Recharts custom skeuomorphic styling */
+  .recharts-tooltip-cursor {
+    fill: rgba(255, 153, 0, 0.05);
+  }
+  .recharts-cartesian-axis-tick-value {
+    fill: #9ca3af;
+    font-weight: 700;
+    font-size: 11px;
+  }
+}
