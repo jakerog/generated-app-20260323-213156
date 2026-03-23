@@ -2,7 +2,7 @@
 
 PriceWatch is a sophisticated, skeuomorphic Progressive Web App (PWA) designed to provide users with a tactile and professional interface for tracking Amazon product prices. Built with a focus on visual excellence and mobile-native feel, PriceWatch offers real-time scraping, historical data visualization, and instant alerts via Email and SMS.
 
-[aureliabutton]
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https%3A%2F%2Fgithub.com%2Fjakerog%2Fgenerated-app-20260323-213156)
 
 ## 🌟 Key Features
 
@@ -89,7 +89,7 @@ Deploying PriceWatch to Cloudflare Workers is seamless. Ensure you have the Clou
 bun run deploy
 ```
 
-[aureliabutton]
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https%3A%2F%2Fgithub.com%2Fjakerog%2Fgenerated-app-20260323-213156)
 
 ### Environment Configuration
 Admin settings, including the Amazon Affiliate Tag and SMS gateway credentials, are managed through the secure Admin Portal or via `wrangler.jsonc` secrets.
